@@ -1,0 +1,79 @@
+{
+	"ftM_Sarisa" :
+	{
+		"class" : "warden",
+		"female" : true,
+	
+		"texts" :
+		{
+			"name" : "Sarisa",
+			"biography" : "Legend has it Sarisa was born during the worst blizzard the world had ever known. It is said that the gods blessed her during that storm, granting her the ability to blind her enemies the way the storm blinded all caught within it.",
+			"specialty" :
+			{
+				"description" : "Casts Blind with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "{Blind}\r\n\r\nCasts Blind with increased effect.",
+				"name" : "Blind"
+			}
+		},
+	
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/sargh/Un32Warl.png",
+			"specialtyLarge" : "fairy/heroes/sargh/Un44Warl.png",
+			"large" : "fairy/heroes/sargh/hpl291.png",
+			"small" : "fairy/heroes/sargh/hps291.png"
+		},
+		
+		"spellbook" :
+		[
+			"blind" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 7,
+				"min" : 2
+			},
+			{
+				"creature" : "ftWyvern1",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty": //blind
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.blind",
+						"addInfo": 0 //normal, like most of hereos
+					}
+				]
+			}
+		]
+	}
+}
+
+

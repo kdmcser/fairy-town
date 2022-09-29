@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"ftFairyCabin" : {
+				"name" : "Arcane Blossom",
+				"creatures" : [[ "ftFairy1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftArcane" : {
+				"name" : "Alehouse",
+				"creatures" : [[ "ftFench1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ftRiverLodge" : {
+				"name" : "Riverbed Lodge",
+				"creatures" : [[ "ftNoble1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "fairy/map/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftPortal" : {
+				"name" : "Breeze Valley",
+				"creatures" : [[ "ftWisp1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"ftDragonHatchery" : {
+				"name" : "Harp Stage",
+				"creatures" : [[ "ftHatchling1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-5.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ftDragonNest" : {
+				"name" : "Rainbow Fort",
+				"creatures" : [[ "ftWyvern1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"ftDragonRoost" : {
+				"name" : "Garden of Light",
+				"creatures" : [[ "ftDrag1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fairy/map/dwellings/dwelling-7.def",
+				"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

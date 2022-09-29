@@ -1,0 +1,63 @@
+{
+	"ftA_Kylina" :
+	{
+		"class" : "hunter",
+		"female" : true,
+		
+		"texts" :
+		{
+			"name" : "Kylina",
+			"biography" : "Kylina enjoys living with sylphs in breeze valley. She also introduced clan of sylphs to all residents who live in her hometown. She also learned some unique languages to make conversations with sylphs.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Sylphs or Sylph Mistresses or each level attained after 4th level.",
+				"tooltip" : "{Forest Dragons}\r\n\r\nIncreases the Attack and Defense skills of Forest Dragons or Swamp Dragons or each level attained after 4th level.",
+				"name" : "Sylph"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/kyorlin/un32drud.png",
+			"specialtyLarge" : "fairy/heroes/kyorlin/un44drud.png",
+			"large" : "fairy/heroes/kyorlin/hpl284.png",
+			"small" : "fairy/heroes/kyorlin/hps284.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "ftWisp1",
+				"max" : 5,
+				"min" : 2
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		
+		"specialty": //special upgrade
+			{
+				"creature" : "ftWisp1",
+			} 
+	}
+}

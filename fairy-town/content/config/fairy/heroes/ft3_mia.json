@@ -1,0 +1,72 @@
+{
+	"ftC_ftMia" :
+	{
+		"class" : "hunter",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Mia",
+			"biography" : "It is said that Mia was born with a love of the finer things. Whenver she is in town, she and her troops can be found in the marketplace, and the coffers are always fuller when she leaves.",
+			"specialty" : 
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/malla/UN32Engi.png",
+			"specialtyLarge" : "fairy/heroes/malla/UN44Engi.png",
+			"large" : "fairy/heroes/malla/hpl289.png",
+			"small" : "fairy/heroes/malla/hps289.png"
+		},	
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 7,
+				"min" : 4
+			},
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}		
+		],
+			
+		"specialty": //estates
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gold",
+						"val": 350
+                    }
+				]
+			}
+		]
+	}
+}
+
+

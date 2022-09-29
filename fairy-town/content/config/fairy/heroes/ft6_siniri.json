@@ -1,0 +1,58 @@
+{
+	"ftF_Siniri" :
+	{
+		"class" : "hunter",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Siniri",
+			"biography" : "Siniri is a bit of a celebrity in the world of Fairies. She and her entourage are known as the Royal Gold Fairy brigade.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Noble Sprites and Sprite Queens or each level attained after 6th level.",
+				"tooltip" : "{Royal Gold Fairys}\r\n\r\nCan upgrade Royal Fairies to Royal Gold Fairys",
+				"name" : "Noble Sprite"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/sithyrr/un32ball.png",
+			"specialtyLarge" : "fairy/heroes/sithyrr/un44ball.png",
+			"large" : "fairy/heroes/sithyrr/hpl290.png",
+			"small" : "fairy/heroes/sithyrr/hps290.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty": //special upgrade
+			{
+				"creature" : "ftWyvern1",
+			} 
+	}
+}

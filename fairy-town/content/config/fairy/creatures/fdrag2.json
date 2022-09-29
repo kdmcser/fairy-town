@@ -1,0 +1,171 @@
+{
+	"ftDrag2":
+	{
+		"name" :
+		{
+			"plural" : "Aurorae",
+			"singular" : "Aurora"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "fairy",
+		"aiValue" : 5931,
+		"attack" : 24,
+		"cost" :
+		{
+			"gold" : 4000,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 24,
+		"fightValue" : 5272,
+		"graphics" :
+		{
+			"animation" : "fairy/battle/creatures/CFar14.def",
+			"map" : "fairy/map/creatures/mapfdrag2.def",
+			"iconSmall" : "fairy/iconsSmall/creatures/fay14.bmp",
+			"iconLarge" : "fairy/iconsBig/creatures/fairy14.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"growth" : 1,
+		"hitPoints" : 225,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "FAERSHOT.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move"   : "SWRDMOVE.wav",
+			"wince"  : "fairy/IRISWNCE.wav",
+			"startMoving": "ENCHSHOT.wav",
+			"endMoving": "ENCHSHOT.wav"
+ 		},
+		"speed" : 14,
+		"abilities" :
+		{
+			"king2" :
+			{
+				"type" : "KING2"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING",
+				"subtype": 1
+			},
+			"resurrection40hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.irisRevive",
+				"val" : 60
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.irisRevive",
+				"val" : 3
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"lucky" :
+			{
+				"type" : "SELF_LUCK"
+			},
+			"morale" :
+			{
+				"type" : "SELF_MORALE"
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 68 //"creature.boneDragon"
+				},
+				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 69 //"creature.ghostDragon"
+				},
+				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, false, false, true, true, true ]
+			}
+		]
+	}
+}

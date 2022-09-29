@@ -1,0 +1,74 @@
+{
+	"ftD_Ola" :
+	{
+		"class" : "hunter",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Ola",
+			"biography" : "One of the finest jewelers in the land, Ola is said to be able to cut a perfect gem from even the most flawed stone.",
+			"specialty" :
+			{
+				"description" : "Increases kingdom's income by 1 crystal per day",
+				"tooltip" : "{Crystal}\r\n\r\n+1 Crystal each day",
+				"name" : "+1 Crystal"
+			}
+		},
+
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/olath/un32crys.png",
+			"specialtyLarge" : "fairy/heroes/olath/un44crys.png",
+			"large" : "fairy/heroes/olath/hpl299.png",
+			"small" : "fairy/heroes/olath/hps299.png"
+		},
+
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 8,
+				"min" : 3
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 3,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty":
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.crystal",
+						"val": 1
+					}
+				]
+			}
+		]
+	}
+}

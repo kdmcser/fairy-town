@@ -1,0 +1,79 @@
+{
+	"ftB_ftMeri" :
+	{
+		"class" : "hunter",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Meri",
+			"biography" : "Meri is one of the finest explorers ever to travel the realm, able to find the quickest paths with ease.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus too Logistics skill percentage.",
+				"tooltip" : "{Logistics}\r\n\r\nReceives a 5% per level bonus too Logistics skill percentage.",
+				"name" : "Logistics"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/mrimm/un32logi.png",
+			"specialtyLarge" : "fairy/heroes/mrimm/un44logi.png",
+			"large" : "fairy/heroes/mrimm/hpl285.png",
+			"small" : "fairy/heroes/mrimm/hps285.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		
+		"specialty": //logistics bonus
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
+						"subtype": "skill.logistics",
+						"val": 5
+					},
+					{
+						"type": "SECONDARY_SKILL_PREMY", //used for first level
+						"subtype": "skill.logistics",
+						"val": 5,
+						"valueType": "PERCENT_TO_BASE"
+					}
+				]
+			}
+		]
+	}
+}

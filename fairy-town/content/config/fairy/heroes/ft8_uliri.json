@@ -1,0 +1,75 @@
+{
+	"ftH_Uliri" :
+	{
+		"class" : "hunter",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Uliri",
+			"biography" : "Uliri is said to be one of the toughest generals in the Fairy kingdom. He constantly subjects his troops to the harshest training, toughening them up to be able to take greater and greater amounts of punishment",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"name" : "Armorer"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/ultrin/Un32Defe.png",
+			"specialtyLarge" : "fairy/heroes/ultrin/Un44Defe.png",
+			"large" : "fairy/heroes/ultrin/hpl287.png",
+			"small" : "fairy/heroes/ultrin/hps287.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty": //defense bonus
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
+						"subtype": "skill.armorer",
+						"val": 5
+					},
+					{
+						"type": "SECONDARY_SKILL_PREMY", //used for first level
+						"subtype": "skill.armorer",
+						"val": 5,
+						"valueType": "PERCENT_TO_BASE"
+					}
+				]
+			}
+		]
+	}
+}

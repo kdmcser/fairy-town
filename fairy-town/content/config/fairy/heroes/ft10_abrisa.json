@@ -1,0 +1,77 @@
+{
+	"ftJ_Abrisa" :
+	{
+		"class" : "warden",
+		"female" : true,
+		
+		"texts" :
+		{
+			"name" : "Abrisa",
+			"biography" : "Abrisa's beauty is only surpassed by her ability to lead her troops in battle. It is said when she blows a kiss at her enemies, even they feel weak in the knees and have trouble fighting agaist her forces.",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "{Weakness}\r\n\r\nCasts Weakness with increased effect.",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/jabress/un32weak.png",
+			"specialtyLarge" : "fairy/heroes/jabress/un44weak.png",
+			"large" : "fairy/heroes/jabress/portrait-large.png",
+			"small" : "fairy/heroes/jabress/portrait-small.png",
+		},
+		
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "ftFairy1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "ftNoble1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty": //weakness
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.weakness",
+						"addInfo": 0 //normal, like most of hereos
+					}
+				]
+			}
+		]
+	}
+}
+

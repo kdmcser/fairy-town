@@ -1,0 +1,141 @@
+{
+	"ftNoble2":
+	{
+		"name" :
+		{
+			"plural" : "Sun Deers",
+			"singular" : "Sun Deer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "fairy",
+		"doubleWide" : true,
+		"aiValue" : 280,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 265,
+		"graphics" :
+		{
+			"animation" : "fairy/battle/creatures/CFar06.def",
+			"map" : "fairy/map/creatures/mapfnoble2.def",
+			"iconSmall" : "fairy/iconsSmall/creatures/fay06.bmp",
+			"iconLarge" : "fairy/iconsBig/creatures/fairy06.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+	       },
+		"growth" : 6,
+		"hitPoints" : 20,
+		"horde": 3,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "UNICATTK.wav",
+			"defend" : "UNICDFND.wav",
+			"killed" : "CGORKILL.wav",
+			"move" : "UNICMOVE.wav",
+			"wince" : "CGORWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"slowImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow",
+				"addInfo" : 1
+			},
+			"castSolarPower" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.frySolarPower",
+				"val" : 20
+			}	
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 56 //"creature.skeleton"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 57 //"creature.skeletonWarrior"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
+	}
+}
