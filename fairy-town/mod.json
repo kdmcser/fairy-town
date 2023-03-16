@@ -19,7 +19,7 @@
 		"description" : "Feenwald Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/fairy/german.json"
 		]
 	},
     "factions" : [ "config/fairy/town" ],
