@@ -17,7 +17,6 @@
 	"german" : {
 		"name" : "Feenwald",
 		"description" : "Feenwald Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/fairy/german.json"
 		]
