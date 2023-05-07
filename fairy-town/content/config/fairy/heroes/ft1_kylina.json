@@ -52,12 +52,12 @@
 			{
 				"level" : "basic",
 				"skill" : "offence"
-			},
+			}
 		],
 		
-		"specialty": //special upgrade
+		"specialty":
 			{
-				"creature" : "ftWisp1",
+				"creature" : "ftWisp1"
 			} 
 	}
 }

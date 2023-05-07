@@ -25,10 +25,8 @@
 		"dungeon" : 0,
 		"tower" : 0,
 		"conflux" : 0,
-		"rampart" : 0,
+		"rampart" : 0
 		},
-
- 
 		"animation":{
 			"affect":["fairy/spells/frysp2.def"]
 		},
@@ -44,10 +42,9 @@
 		},
 		"counters" : {
 			"spell.hypnotize": true,
-			"spell.berserk": true,
+			"spell.berserk": true
 		},
  
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "fairy/spells/fryspell2.bmp"
@@ -92,8 +89,8 @@
 						"type" : "ATTACKS_NEAREST_CREATURE",
 						"duration" : ["N_TURNS"],
 						"turns" : 2
-					},
-				},
+					}
+				}
 			},
 			"none":
 			{
@@ -116,7 +113,7 @@
 				"cost": 14,
 				"range" : "0",
 				"description": "{Pacifism}\n\n."
-			},
+			}
 		}
 	}
 }

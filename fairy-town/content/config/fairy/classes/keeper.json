@@ -9,7 +9,7 @@
 			{
 				"female" : "fairy/battle/heroes/battleHeroMagic",
 				"male"   : "fairy/battle/heroes/battleHeroMagic"
-			},
+			}
 		},
 
 		"mapObject" : { "templates" : { "default" : { "animation" : "fairy/map/heroes/mapHeroMagic" } } },

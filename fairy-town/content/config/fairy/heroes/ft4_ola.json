@@ -57,18 +57,14 @@
 			}
 		],
 		
-		"specialty":
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.crystal",
-						"val": 1
-					}
-				]
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
-		]
+		}
 	}
 }

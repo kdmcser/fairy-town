@@ -1,5 +1,5 @@
 {
-	"ftI_Zerela" ://Vanessa
+	"ftI_Zerela" :
 	{
 		"class" : "warden",
 		"female" : true,
@@ -21,7 +21,7 @@
 			"specialtySmall" : "fairy/heroes/velkyn/UN32Dark.png",
 			"specialtyLarge" : "fairy/heroes/velkyn/UN44Dark.png",
 			"large" : "fairy/heroes/velkyn/hpl296.png",
-			"small" : "fairy/heroes/velkyn/hps296.png",
+			"small" : "fairy/heroes/velkyn/hps296.png"
 		},
 
 		"spellbook" :
@@ -59,9 +59,9 @@
 				}
 		],
 		
-		"specialty": //special upgrade
+		"specialty":
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFairy1"
 			} 
 	}
 }

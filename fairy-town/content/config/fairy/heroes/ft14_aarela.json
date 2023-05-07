@@ -59,10 +59,15 @@
 				"skill" : "intelligence"
 			}
 		],
-		"specialty" : [
-			{
-				"bonuses" : [ { "subtype" : "spell.magicArrow", "type" : "SPECIAL_SPELL_LEV", "val" : 5 } ]
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
 			}
-		],
+		}
 	}
 }

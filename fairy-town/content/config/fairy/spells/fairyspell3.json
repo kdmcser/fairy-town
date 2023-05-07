@@ -11,7 +11,7 @@
 		},
 		"targetType": "CREATURE",
 		"level": 5,
-		"power": 1, //duration spellpower=turns
+		"power": 1,
 		"defaultGainChance": 0, 
 		"gainChance": {},
 		"animation":{
@@ -40,7 +40,7 @@
 		"levels" : {
 			"base":{
 				"targetModifier":{"smart":true},
-				"aiValue": 20, //don't know what it means
+				"aiValue": 20,
 				"cost": 0, 
 				"range":"0",
 				"description": "{Sacred Cure}\r\n\r\nYou cannot see this description.",

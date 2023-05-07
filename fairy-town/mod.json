@@ -3,15 +3,16 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.5",
+	"version" : "1.6",
 	"changelog" :
 	{
+		"1.6"   : [ "Update to vcmi-1.2" ],
 		"1.5"   : [ "Totally reworked town" ],
 		"1.0"   : [ "Initial release" ]
 	},	
 	"compatibility" :
 	{
-		"min" : "1.0.0"
+		"min" : "1.2.0"
 	},	
 	"modType" : "Town",	
 	"german" : {
@@ -75,7 +76,7 @@
 		"config/fairy/spells/fairyspell1.json",
 		"config/fairy/spells/fairyspell2.json",
 		"config/fairy/spells/fairyspell3.json",
-		"config/fairy/spells/shotspell1.json",
+		"config/fairy/spells/shotspell1.json"
 	],
     "objects" :
     [  

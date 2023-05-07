@@ -9,7 +9,7 @@
 			{
 				"female" : "fairy/battle/heroes/battleHeroBeetleDiviner",
 				"male"   : "fairy/battle/heroes/battleHeroBeetle"
-			},
+			}
 		},
 
 		"mapObject" : { "templates" : { "default" : { "animation" : "fairy/map/heroes/mapHeroDiviner" } } },

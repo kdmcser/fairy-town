@@ -21,7 +21,7 @@
 			"specialtySmall" : "fairy/heroes/velve/UN32Blsh.png",
 			"specialtyLarge" : "fairy/heroes/velve/UN44Blsh.png",
 			"large" : "fairy/heroes/velve/hpl298.png",
-			"small" : "fairy/heroes/velve/hps298.png",
+			"small" : "fairy/heroes/velve/hps298.png"
 		},
 
 		"army" :
@@ -53,20 +53,18 @@
 				"skill" : "learning"
 			}
 		],
-		"specialty": //+1 dmg
-		[
-			{
-				"bonuses":
-				[
-					{
+		"specialty":
+		{
+			"bonuses": {
+				"damageBoost" :
+				{
 						"type": "CREATURE_DAMAGE",
 						"subtype": 0,
 						"val" : 1,
 						"valueType" : "BASE_NUMBER"
-					}
-				]
+				}
 			}
-		]
+		}	
 	}
 }
 

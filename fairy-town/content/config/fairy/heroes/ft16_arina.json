@@ -21,7 +21,7 @@
 			"specialtySmall" : "fairy/heroes/tuidhana/Un32Fmag.png",
 			"specialtyLarge" : "fairy/heroes/tuidhana/Un44Fmag.png",
 			"large" : "fairy/heroes/tuidhana/hpl300.png",
-			"small" : "fairy/heroes/tuidhana/hps300.png",
+			"small" : "fairy/heroes/tuidhana/hps300.png"
 		},
 
 		"spellbook" :
@@ -59,19 +59,15 @@
 				"skill" : "wisdom"
 			}
 		],
-		"specialty":
-		[
-			{
-				"bonuses":
-				[
-					{
+		"specialty": {
+			"bonuses": {
+				"discount" : {
 					"type" : "SURRENDER_DISCOUNT",
 					"val" : 40,
 					"propagator" : "HERO"
-					}
-				]
+				}
 			}
-		]
+		}
 	}
 }
 

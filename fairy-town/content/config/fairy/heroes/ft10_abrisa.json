@@ -21,7 +21,7 @@
 			"specialtySmall" : "fairy/heroes/jabress/un32weak.png",
 			"specialtyLarge" : "fairy/heroes/jabress/un44weak.png",
 			"large" : "fairy/heroes/jabress/portrait-large.png",
-			"small" : "fairy/heroes/jabress/portrait-small.png",
+			"small" : "fairy/heroes/jabress/portrait-small.png"
 		},
 		
 		"spellbook" :
@@ -59,19 +59,15 @@
 			}
 		],
 		
-		"specialty": //weakness
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.weakness",
-						"addInfo": 0 //normal, like most of hereos
-					}
-				]
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		]
+		}
 	}
 }
 

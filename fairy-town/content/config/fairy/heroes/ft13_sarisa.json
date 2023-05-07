@@ -60,19 +60,15 @@
 			}
 		],
 		
-		"specialty": //blind
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.blind",
-						"addInfo": 0 //normal, like most of hereos
-					}
-				]
+		"specialty" : {
+			"bonuses" : {
+				"blind" : {
+					"addInfo" : 0,
+					"subtype" : "spell.blind",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
-		]
+		}
 	}
 }
 

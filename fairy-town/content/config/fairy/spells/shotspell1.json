@@ -20,7 +20,6 @@
 			"conflux" : 0
 		},
  
-		//forgetfulness animation
 		"animation":{
 			"affect":["fairy/spells/frysp3.def"]
 		},

@@ -55,9 +55,9 @@
 			}
 		],
 		
-		"specialty": //special upgrade
+		"specialty":
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftFench1"
 			} 
 	}
 }

@@ -34,7 +34,7 @@
 				"creature" : "ftNoble1",
 				"max" : 7,
 				"min" : 4
-			},
+			}
 		],
 		
 		"skills" :
@@ -53,19 +53,15 @@
 			}		
 		],
 			
-		"specialty": //estates
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.gold",
-						"val": 350
-                    }
-				]
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
 			}
-		]
+		}
 	}
 }
 

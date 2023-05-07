@@ -27,8 +27,7 @@
 			{
 				"walk" : 0.15,
 				"attack" : 1,
-				"idle" : 40,
-				"flight" : 1
+				"idle" : 40
 			}
 		},
 		"doubleWide" : true,
@@ -45,7 +44,7 @@
 		      "noRetaliation" :
 			{
 				"type" : "NO_RETALIATION",
-				 "val" : 0,
+				 "val" : 0
 			},
 			"warmachine" :
 			{
@@ -63,7 +62,6 @@
 				{
 					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
@@ -72,7 +70,6 @@
 				{
 					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},

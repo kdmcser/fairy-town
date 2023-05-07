@@ -21,7 +21,7 @@
 			"specialtySmall" : "fairy/heroes/suliss/Un32Scri.png",
 			"specialtyLarge" : "fairy/heroes/suliss/Un44Scri.png",
 			"large" : "fairy/heroes/suliss/hpl293.png",
-			"small" : "fairy/heroes/suliss/hps293.png",
+			"small" : "fairy/heroes/suliss/hps293.png"
 		},
 		
 		"spellbook" :
@@ -57,8 +57,9 @@
 				"level" : "basic",
 				"skill" : "waterMagic"
 			}
-		]
-				//specialty//???
+		],
+		"specialty" : {
+		}
 	}
 }
 

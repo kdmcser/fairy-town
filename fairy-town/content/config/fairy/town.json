@@ -289,7 +289,7 @@
 					},
 					"id" : 18,
 					"upgrades" : "dwellingLvl3",
-					"requires" : [ "fort" ],
+					"requires" : [ "fort" ]
 				},
 				"horde1Upgr" :
 				{
@@ -361,7 +361,7 @@
 				},
 				"dwellingLvl1" :
 				{
-					"description" : "Arcane Blossom allows you to recruit Fays.",//Fay
+					"description" : "Arcane Blossom allows you to recruit Fays.",
 					"name" : "Arcane Blossom",
 					"cost" : 
 					{
@@ -373,7 +373,7 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "Alehouse allows you to recruit Clauricorns.",//Clauricorn
+					"description" : "Alehouse allows you to recruit Clauricorns.",
 					"name" : "Alehouse",
 					"cost" : 
 					{
@@ -386,7 +386,7 @@
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "Riverbed Lodge allows you to recruit Moon Deers.",//Moon Doe
+					"description" : "Riverbed Lodge allows you to recruit Moon Deers.",
 					"name" : "Riverbed Lodge",
 					"cost" : 
 					{
@@ -400,7 +400,7 @@
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "Breeze Valley allows you to recruit Sylphs.",//Sylph
+					"description" : "Breeze Valley allows you to recruit Sylphs.",
 					"name" : "Breeze Valley",
 					"cost" : 
 					{
@@ -413,8 +413,8 @@
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "Harp Stage allows you to recruit Sibyls.",//Priestess
-					"name" : "Harp Stage",//Harp Stage
+					"description" : "Harp Stage allows you to recruit Sibyls.",
+					"name" : "Harp Stage",
 					"cost" : 
 					{
 						"gold" : 2500,
@@ -427,7 +427,7 @@
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "Rainbow Fort allows you to recruit Noble Sprites.",//Noble Sprite
+					"description" : "Rainbow Fort allows you to recruit Noble Sprites.",
 					"name" : "Rainbow Fort",
 					"cost" : 
 					{
@@ -440,7 +440,7 @@
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "Garden of Light allows you to recruit Irises.",//Iris
+					"description" : "Garden of Light allows you to recruit Irises.",
 					"name" : "Garden of Light",
 					"cost" : 
 					{
@@ -453,7 +453,7 @@
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "Upg. Arcane Blossom allows you to recruit Faeries.",//Faerie
+					"description" : "Upg. Arcane Blossom allows you to recruit Faeries.",
 					"name" : "Upg. Arcane Blossom",
 					"cost" :
 					{
@@ -466,7 +466,7 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "Upg. Alehouse allows you to recruit Leprechauns.",//Leprechaun
+					"description" : "Upg. Alehouse allows you to recruit Leprechauns.",
 					"name" : "Upg. Alehouse",
 					"cost" : 
 					{
@@ -479,7 +479,7 @@
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "Upg. Riverbed Lodge allows you to recruit Sun Deers.",//Sun Deer
+					"description" : "Upg. Riverbed Lodge allows you to recruit Sun Deers.",
 					"name" : "Upg. Riverbed Lodge",
 					"cost" : 
 					{
@@ -493,7 +493,7 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "Upg. Breeze Valley allows you to recruit Sylph Mistresses.",//Sylph Mistress
+					"description" : "Upg. Breeze Valley allows you to recruit Sylph Mistresses.",
 					"name" : "Upg. Breeze Valley",
 					"cost" : 
 					{
@@ -506,7 +506,7 @@
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "Upg. Harp Stage allows you to recruit Enchantresses.",//Enchantress
+					"description" : "Upg. Harp Stage allows you to recruit Enchantresses.",
 					"name" : "Upg. Harp Stage",
 					"cost" : 
 					{
@@ -521,7 +521,7 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "Upg. Rainbow Fort allows you to recruit Sprite Queens.",//Sprite Queen
+					"description" : "Upg. Rainbow Fort allows you to recruit Sprite Queens.",
 					"name" : "Upg. Rainbow Fort",
 					"cost" : 
 					{
@@ -535,7 +535,7 @@
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "Upg. Garden of Light allows you to recruit Aurorae.",//Aurora
+					"description" : "Upg. Garden of Light allows you to recruit Aurorae.",
 					"name" : "Upg. Garden of Light",
 					"cost" : 
 					{
@@ -676,6 +676,8 @@
 			"siege" : {
 				"shooter" : "ftHatchling1",
 				"imagePrefix" : "fairy/siege/sgft",
+				"towerIconSmall" : "fairy/icons/arrowtowersmall",
+				"towerIconLarge" : "fairy/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 477, "y" : 238 },
@@ -896,7 +898,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde1",
+					"hidden" : true, "builds" : "horde1"
 				},
 				"boat" :
 				{
@@ -934,7 +936,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde2",
+					"hidden" : true, "builds" : "horde2"
 				},	
 				"grail" :
 				{
