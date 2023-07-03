@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.6",
+	"version" : "1.7",
 	"changelog" :
 	{
+		"1.7"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.6"   : [ "Update to vcmi-1.2" ],
 		"1.5"   : [ "Totally reworked town" ],
 		"1.0"   : [ "Initial release" ]
@@ -15,6 +16,12 @@
 		"min" : "1.2.0"
 	},	
 	"modType" : "Town",	
+	"chinese" : {
+		"name" : "深渊",
+		"translations" : [
+			"translation/fairy/chinese.json"
+		]
+	},	
 	"german" : {
 		"name" : "Feenwald",
 		"description" : "Feenwald Stadt",
