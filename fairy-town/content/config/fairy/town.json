@@ -1,6 +1,7 @@
 {
 	"fairy" : {
 		"alignment" : "good",
+		"boat" : "boatCastle",
 		"creatureBackground" : { "120px" : "fairy/creature-bg-120px.bmp", "130px" : "fairy/creature-bg-130px.bmp" },
 		"name" : "Fairy",
 		"nativeTerrain" : "grass",
@@ -627,6 +628,7 @@
 			"guildWindow" : "fairy/town-screen/mage-guild.bmp",
 			"hallBackground" : "TPTHBKFR",
 			"horde" : [ 2, 0 ],
+			"moatAbility" : "fairyMoat",
 			"icons" : {
 				"village" : {
 					"normal" : {"small" : "fairy/icons/hall-small.bmp", "large" : "fairy/icons/hall-big.bmp" },
@@ -1077,8 +1079,6 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "fairy/town-screen/background.bmp",
 		"warMachine" : "firstAidTent",
-		"moatDamage" : 90,
-		"moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
