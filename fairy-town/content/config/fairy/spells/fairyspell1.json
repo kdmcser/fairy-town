@@ -54,7 +54,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -62,7 +62,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -94,7 +94,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -102,7 +102,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -133,7 +133,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -141,7 +141,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -172,7 +172,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -180,7 +180,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -211,7 +211,7 @@
 					"boostAttack":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
@@ -219,7 +219,7 @@
 					"boostDefense":
                     {
                         "type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_ALL",
                         "duration": "PERMANENT"
