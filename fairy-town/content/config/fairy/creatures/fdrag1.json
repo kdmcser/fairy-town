@@ -66,11 +66,11 @@
 				"type" : "FLYING",
 				"subtype": 1
 			},
-		"lucky" :
+			"lucky" :
 			{
 				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
 			},
-		"morale" :
+			"morale" :
 			{
 				"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX"
 			}
@@ -81,7 +81,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -89,7 +89,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
