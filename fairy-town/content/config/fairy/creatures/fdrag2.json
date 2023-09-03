@@ -3,7 +3,7 @@
 	{
 		"name" :
 		{
-			"plural" : "Aurorae",
+			"plural" : "Auroras",
 			"singular" : "Aurora"
 		},
 		"advMapAmount" :
@@ -41,7 +41,7 @@
 			}
 		},
 		"growth" : 1,
-		"hitPoints" : 225,
+		"hitPoints" : 250,
 		"level" : 7,
 		"sound" :
 		{
@@ -53,13 +53,10 @@
 			"startMoving": "ENCHSHOT.wav",
 			"endMoving": "ENCHSHOT.wav"
  		},
-		"speed" : 14,
+		"speed" : 16,
 		"abilities" :
 		{
-			"king2" :
-			{
-				"type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE"
-			},
+			"basicSlayer" : { "type" : "KING", "val": 2 },
 			"canFly" : 
 			{
 				"type" : "FLYING",
@@ -82,13 +79,17 @@
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"lucky" :
+			"selfLuck" :
 			{
-				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			},
-			"morale" :
+		"selfmorale" :
 			{
-				"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX"
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			}
 		},
 		"stackExperience" :
@@ -97,16 +98,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},

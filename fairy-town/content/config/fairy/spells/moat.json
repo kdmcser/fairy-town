@@ -3,7 +3,7 @@
     {
         "targetType" : "CREATURE",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Enchanted Flowers",
         "school": {},
         "level": 0,
         "power": 0,
@@ -64,7 +64,7 @@
                         "triggerAbility" : "fairyMoatTrigger",
                         "dispellable" : false,
                         "removeOnTrigger" : false,
-						"moatDamage" : 90,
+						"moatDamage" : 70,
 						"moatHexes" : [[ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ]],
                         "defender" :{
                         },

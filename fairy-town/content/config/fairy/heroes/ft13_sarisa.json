@@ -42,7 +42,7 @@
 				"min" : 2
 			},
 			{
-				"creature" : "ftWyvern1",
+				"creature" : "ftHatchling1",
 				"max" : 1,
 				"min" : 1
 			}

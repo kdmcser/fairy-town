@@ -4,6 +4,9 @@
 			"ftFairyCabin" : {
 				"name" : "Arcane Blossom",
 				"creatures" : [[ "ftFairy1" ]],
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-1.def",
@@ -14,6 +17,9 @@
 			"ftArcane" : {
 				"name" : "Alehouse",
 				"creatures" : [[ "ftFench1" ]],
+				"sounds": {
+					"ambient": ["LOOPGREM"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-2.def",
@@ -24,6 +30,9 @@
 			"ftRiverLodge" : {
 				"name" : "Riverbed Lodge",
 				"creatures" : [[ "ftNoble1" ]],
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
 				"templates" : {
 					"default" : {	
 						"animation" : "fairy/map/dwellings/dwelling-3.def",
@@ -34,6 +43,9 @@
 			"ftPortal" : {
 				"name" : "Breeze Valley",
 				"creatures" : [[ "ftWisp1" ]],
+				"sounds": {
+					"ambient": ["LOOPAIR"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-4.def",
@@ -44,6 +56,9 @@
 			"ftDragonHatchery" : {
 				"name" : "Harp Stage",
 				"creatures" : [[ "ftHatchling1" ]],
+				"sounds": {
+					"ambient": ["fairy/LOOP01"]
+				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -56,6 +71,9 @@
 				"name" : "Rainbow Fort",
 				"creatures" : [[ "ftWyvern1" ]],
 				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-6.def",
@@ -67,6 +85,9 @@
 				"name" : "Garden of Light",
 				"creatures" : [[ "ftDrag1" ]],
 				"guards" : true,
+				"sounds": {
+					"ambient": ["LOOPFAER"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "fairy/map/dwellings/dwelling-7.def",

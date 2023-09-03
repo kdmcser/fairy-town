@@ -69,16 +69,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	

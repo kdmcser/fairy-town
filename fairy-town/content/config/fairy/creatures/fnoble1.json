@@ -17,7 +17,7 @@
 		"attack" : 7,
 		"cost" :
 		{
-			"gold" : 200
+			"gold" : 160
 		},
 		"damage" :
 		{
@@ -38,9 +38,9 @@
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
-			}
-	     },
-		"growth" : 6,
+			},
+	       },
+		"growth" : 7,
 		"hitPoints" : 18,
 		"horde": 3,
 		"level" : 3,
@@ -72,16 +72,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},

@@ -1,10 +1,10 @@
 {
 	"fairy" : {
 		"alignment" : "good",
-		"boat" : "boatCastle",
+		"boat" : "boatFairy",
 		"creatureBackground" : { "120px" : "fairy/creature-bg-120px.bmp", "130px" : "fairy/creature-bg-130px.bmp" },
 		"name" : "Fairy",
-		"nativeTerrain" : "grass",
+		"nativeTerrain" : "highlands", //need to link with HotA mod
 		"puzzleMap" : {
 			"prefix" : "fairy/puzzle-map/PUZ",
 			"pieces" :
@@ -324,6 +324,42 @@
 					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"] ],
 					"id" : 17
 				},
+				"special2" : 
+				{
+					"description" : "After planting the miracle seeds, then get harvest if you continue to cultivate it (need to be upgraded).",
+					"name" : "Miracle Seeds",
+					"cost" : 
+					{
+						"gold" : 500
+					},
+					"id" : 21
+				},
+				"special3" : 
+				{
+					"description" : "Miracle Flowers provides you with an additional +1 crystal each day.",
+					"name" : "Miracle Flowers",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"gems": 2
+					},
+					"upgrades" : "special2",
+					"produce": { "crystal": 1 },
+					"id" : 22
+				},
+				"special4" : 
+				{
+					"description" : "The Beautiful Flowers provides you with an additional +1 crystal each day, and helps hero recover 5 extra spell points per day after visiting within 7 days.",
+					"name" : "Rainbow Flower",
+					"cost" : 
+					{
+						"gold" : 2000,
+					},
+					"upgrades" : "special3",
+					"produce": { "crystal": 1 },
+					"onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "MANA_REGENERATION", "val": 5} ],
+					"id" : 23
+				},
 				"horde2" : 
 				{
 					"description" : "The Magic Shroom increases Fays production by 8 per week.",
@@ -392,11 +428,9 @@
 					"cost" : 
 					{
 						"gold" : 1000,
-						"wood" : 5,
-						"crystal" : 2,
-						"gems" : 2
+						"wood" : 5
 					},
-					"requires" : [ "dwellingLvl2" ],
+					"requires" : [ "dwellingLvl1" ],
 					"id" : 32
 				},
 				"dwellingLvl4" :
@@ -423,7 +457,7 @@
 						"ore" : 5,
 						"crystal" : 5
 					},
-					"requires" : [ "dwellingLvl3" ],
+					"requires" : [ "dwellingLvl2" ],
 					"id" : 34
 				},
 				"dwellingLvl6" :
@@ -657,21 +691,21 @@
 			
 			"musicTheme" : "music/factions/fairyTown",
 			"names" : [
-				"Darkwood",
-				"Moonforest",
-				"Nightroot",
-				"Lunaraltar",
+				"Rosalind",
+				"Rosamund",
+				"Dawn Forests",
+				"Stir Forests",
 				"Stellarmonolith",
 				"Secret Oak",
 				"Mystery Altar",
 				"Silverpine",
 				"Emerald River",
-				"Evening",
-				"Shadowhold",
-				"Crownaltar",
+				"Perth",
+				"Gesibsumnes",
+				"Crown Trees",
 				"Dusk Forests",
-				"Deepthicket",
-				"Black Orchard",
+				"Bearth",
+				"Night Orchard",
 				"Fullmoon"
 			],
 			"primaryResource" : "gems",
@@ -900,7 +934,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde1"
+					"hidden" : true, "builds" : "horde1",
 				},
 				"boat" :
 				{
@@ -920,6 +954,33 @@
 					"y" : 0,
 					"z" : 1
 				},
+				"special2" : 
+				{
+					"animation" : "fairy/town-screen/buildings/TBFLSPE2",
+					"area" : "fairy/town-screen/buildings-area/TZFLSPE2",
+					"border" : "fairy/town-screen/buildings-border/TOFLSPE2",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"special3" : 
+				{
+					"animation" : "fairy/town-screen/buildings/TBFLSPE3",
+					"area" : "fairy/town-screen/buildings-area/TZFLSPE2",
+					"border" : "fairy/town-screen/buildings-border/TOFLSPE2",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"special4" : 
+				{
+					"animation" : "fairy/town-screen/buildings/TBFLSPE4",
+					"area" : "fairy/town-screen/buildings-area/TZFLSPE2",
+					"border" : "fairy/town-screen/buildings-border/TOFLSPE2",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
 				"horde2" :
 				{
 					"animation" : "fairy/town-screen/buildings/TBFLHRD3",
@@ -938,7 +999,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde2"
+					"hidden" : true, "builds" : "horde2",
 				},	
 				"grail" :
 				{

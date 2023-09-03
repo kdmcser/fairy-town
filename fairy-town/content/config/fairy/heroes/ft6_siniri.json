@@ -12,7 +12,7 @@
 			{
 				"description" : "Increases the Attack and Defense skills of Noble Sprites and Sprite Queens or each level attained after 6th level.",
 				"tooltip" : "{Royal Gold Fairys}\r\n\r\nCan upgrade Royal Fairies to Royal Gold Fairys",
-				"name" : "Noble Sprite"
+				"name" : "Noble Sprites"
 			}
 		},
 		
@@ -30,6 +30,11 @@
 				"creature" : "ftFairy1",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "ftFench1",
+				"max" : 10,
+				"min" : 8
 			},
 			{
 				"creature" : "ftNoble1",

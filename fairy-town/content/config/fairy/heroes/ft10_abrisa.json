@@ -6,13 +6,13 @@
 		
 		"texts" :
 		{
-			"name" : "Abrisa",
-			"biography" : "Abrisa's beauty is only surpassed by her ability to lead her troops in battle. It is said when she blows a kiss at her enemies, even they feel weak in the knees and have trouble fighting agaist her forces.",
+			"name" : "Danielle",
+			"biography" : "Danielle travelled from Evlee to the fairyland by using her boat. Her skill for Navigation is outstanding, even someone suspects her was an elf pirate.",
 			"specialty" :
 			{
-				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"description" : "Receives a 5% per level bonus to Navigation skill percentage.",
 				"tooltip" : "{Weakness}\r\n\r\nCasts Weakness with increased effect.",
-				"name" : "Weakness"
+				"name" : "Navigation"
 			}
 		},
 
@@ -26,7 +26,7 @@
 		
 		"spellbook" :
 		[
-			"weakness"
+			"summonBoat"
 		],
 
 		"army" :
@@ -55,16 +55,19 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "waterMagic"
+				"skill" : "navigation"
 			}
 		],
 		
 		"specialty" : {
 			"bonuses" : {
-				"weakness" : {
-					"addInfo" : 0,
-					"subtype" : "spell.weakness",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : 0,
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 				}
 			}
 		}

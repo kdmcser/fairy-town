@@ -24,7 +24,6 @@
 		},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "normal"

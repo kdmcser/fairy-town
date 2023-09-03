@@ -12,7 +12,7 @@
 			{
 				"description" : "Increases the Attack and Defense skills of Clauricorns and Leprechauns or each level attained after 2nd level.",
 				"tooltip" : "{Fairy Enchantresses}\r\n\r\nIncreases the Attack and Defense skills of Clauricorns and Leprechauns.",
-				"name" : "Clauricorn"
+				"name" : "Clauricorns"
 			}
 		},
 		
@@ -33,8 +33,8 @@
 			},
 			{
 				"creature" : "ftFench1",
-				"max" : 5,
-				"min" : 2
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "ftFench1",

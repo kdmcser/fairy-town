@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Fairy Captains",
-			"singular" : "Fairy Captain"
+			"plural" : "Fairy Commanders",
+			"singular" : "Fairy Commander"
 		},
 		"advMapAmount" :
 		{
@@ -31,6 +31,7 @@
 		"graphics" :
 		{
 			"animation" : "fairy/battle/creatures/fcommander.def",
+//			"map" : "fairy/map/creatures/mapfcommander.def",
 			"iconSmall" : "fairy/iconsSmall/creatures/fcommander.bmp",
 			"iconLarge" : "fairy/iconsBig/creatures/fcommander.bmp",
 			"timeBetweenFidgets" : 1,

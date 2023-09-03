@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "魔盾石",
-			"singular" : "魔盾石"
+			"plural" : "Stone Aegises", //not used
+			"singular" : "Stone Aegis"
 		},
 		"faction" : "fairy",
 		"level": 0,
@@ -44,7 +44,7 @@
 		      "noRetaliation" :
 			{
 				"type" : "NO_RETALIATION",
-				 "val" : 0
+				 "val" : 0,
 			},
 			"warmachine" :
 			{
@@ -60,16 +60,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},

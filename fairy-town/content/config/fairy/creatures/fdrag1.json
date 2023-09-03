@@ -3,7 +3,7 @@
 	{
 		"name" :
 		{
-			"plural" : "Irises",
+			"plural" : "Irises", //means Rainbow, not flower iris
 			"singular" : "Iris"
 		},
 		"advMapAmount" :
@@ -54,25 +54,26 @@
 			"startMoving": "ENCHSHOT.wav",
 			"endMoving": "ENCHSHOT.wav"
  		},
-		"speed" : 9,
+		"speed" : 10,
 		"abilities" :
 		{
-			"king2" :
-			{
-				"type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE"
-			},
+			"basicSlayer" : { "type" : "KING", "val": 2 },
 			"canFly" : 
 			{
 				"type" : "FLYING",
 				"subtype": 1
 			},
-			"lucky" :
+		"selfLuck" :
 			{
-				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			},
-			"morale" :
+		"selfmorale" :
 			{
-				"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX"
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			}
 		},
 		"stackExperience" :
@@ -81,16 +82,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : 0,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : 1,
 					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},

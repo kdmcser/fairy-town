@@ -31,10 +31,15 @@
 				"min" : 20
 			},
 			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
 				"creature" : "ftNoble1",
 				"max" : 7,
 				"min" : 4
-			}
+			},
 		],
 		
 		"skills" :
@@ -46,10 +51,6 @@
 			{
 				"level" : "basic",
 				"skill" : "ballistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "artillery"
 			}		
 		],
 			
