@@ -353,7 +353,7 @@
 					"name" : "Rainbow Flower",
 					"cost" : 
 					{
-						"gold" : 2000,
+						"gold" : 2000
 					},
 					"upgrades" : "special3",
 					"produce": { "crystal": 1 },
@@ -934,7 +934,8 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde1",
+					"hidden" : true,
+					"builds" : "horde1"
 				},
 				"boat" :
 				{
@@ -999,7 +1000,8 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true, "builds" : "horde2",
+					"hidden" : true,
+					"builds" : "horde2"
 				},	
 				"grail" :
 				{
