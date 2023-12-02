@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.1",
+	"version" : "2.2",
 	"changelog" :
 	{
+		"2.2"	: [ "Update to vcmi-1.4 format"],
 		"2.1"	: [ "Lvl 5 animation updates", "Townscreen building animation updates"],
 		"2.0"	: [ "Match fairy town with Highlands terrain"],
 		"1.9"	: [ "New updates from the town and balanced figures" ],

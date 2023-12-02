@@ -69,7 +69,8 @@
 		    },
 	    "canFly" : 
 			{
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			}
 		},
 		"stackExperience" :
@@ -78,25 +79,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1, //min
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -104,7 +103,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2, //max
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -120,7 +119,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 56 //"creature.skeleton"
+					"subtype" : "creature.skeleton"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
 			},
@@ -128,7 +127,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 57 //"creature.skeletonWarrior"
+					"subtype" : "creature.skeletonWarrior"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]			
 			},

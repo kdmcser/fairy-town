@@ -3,7 +3,7 @@
 	{
 		"name" :
 		{
-			"plural" : "Irises", //means Rainbow, not flower iris
+			"plural" : "Irises",
 			"singular" : "Iris"
 		},
 		"advMapAmount" :
@@ -61,7 +61,7 @@
 			"canFly" : 
 			{
 				"type" : "FLYING",
-				"subtype": 1
+				"subtype": "movementTeleporting"
 			},
 		"selfLuck" :
 			{
@@ -82,33 +82,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -124,7 +114,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 68 //"creature.boneDragon"
+					"subtype" : "creature.boneDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},
@@ -132,7 +122,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : 69 //"creature.ghostDragon"
+					"subtype" : "creature.ghostDragon"
 				},
 				"values" : [ 70, 90, 110, 130, 150, 170, 190, 210, 230, 250 ]			
 			},

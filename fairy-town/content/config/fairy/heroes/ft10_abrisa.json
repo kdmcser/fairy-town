@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "Receives a 5% per level bonus to Navigation skill percentage.",
-				"tooltip" : "{Weakness}\r\n\r\nCasts Weakness with increased effect.",
+				"tooltip" : "Secondary skill: Navigation.",
 				"name" : "Navigation"
 			}
 		},
@@ -63,7 +63,7 @@
 			"bonuses" : {
 				"navigation" : {
 					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : 0,
+					"subtype" : "heroMovementSea",
 					"type" : "MOVEMENT",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,

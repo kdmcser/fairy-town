@@ -74,7 +74,7 @@
 		{
 			"canFly" : 
 			{
-				"type" : "FLYING"
+				"type" : "FLYING", "subtype" : "movementFlying"
 			},
         		"shooter" :
 			{
