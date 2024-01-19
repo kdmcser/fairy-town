@@ -7,7 +7,7 @@
 		{
 			"air": false,
 			"earth": false,
-			"fire": true,
+			"fire": false,
 			"water": false
 		},
 		"level": 5,
@@ -20,13 +20,20 @@
 			"conflux" : 0
 		},
  
+		//forgetfulness animation
 		"animation":{
 			"affect":["fairy/spells/frysp3.def"]
 		},
  
 		"flags" : {
 			"damage": true,
+			"indifferent": true,
 			"negative": true
+		},
+		"targetCondition" : {
+			"allOf" : {
+				"spell.blossomEff" : "absolute"
+			}
 		},
  
  
@@ -43,11 +50,10 @@
  
 		"levels" : {
 			"base":{
-				"range" : "0",
+				"range" : "0-16",
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"core:damage",
-						"ignoreImmunity" : true
+						"type":"core:damage"
 					}
 				},
 				"targetModifier":{"smart":true}

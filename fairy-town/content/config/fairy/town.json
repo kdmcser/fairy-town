@@ -735,7 +735,7 @@
 					"bottom" :
 					{
 						"battlement" : { "x" : 602, "y" : 500 },
-						"creature" : { "x" : 394, "y" : 299	},
+						"creature" : { "x" : 400, "y" : 302	},
 						"tower" : { "x" : 602, "y" : 500 }
 					},
 					"keep" :
@@ -747,7 +747,7 @@
 					"top" :
 					{
 						"battlement" : { "x" : 557, "y" : 24 },
-						"creature" : { "x" : 348, "y" : -185 },
+						"creature" : { "x" : 348, "y" : -181 },
 						"tower" : { "x" : 569, "y" : 35 }
 					}
 				},

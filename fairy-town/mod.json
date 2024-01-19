@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.3",
+	"version" : "2.4",
 	"changelog" :
 	{
+		"2.4"	: [ "New commander sprites", "Some fixes in siege screen"],
 		"2.3"	: [ "Fixed the creatures' stackExp and the commander"],
 		"2.2"	: [ "Update to vcmi-1.4 format"],
 		"2.1"	: [ "Lvl 5 animation updates", "Townscreen building animation updates"],
