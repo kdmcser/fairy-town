@@ -72,7 +72,7 @@
 				"creatures" : [[ "ftWyvern1" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["LOOPFAER"]
+					"ambient": ["dwellings/faidwl6.wav"]
 				},
 				"templates" : {
 					"default" : {
