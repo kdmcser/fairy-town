@@ -25,8 +25,8 @@
 	"modType" : "Town",	
 	"depends" : ["hota.highlandsterrain"], 
 	"chinese" : {
-		"name" : "花仙堡",
-		"description" : "花仙堡",
+		"name" : "仙境",
+		"description" : "仙境有着独特的爱尔兰童话艺术感，原型之一也来自于二代的女巫阵营。该种族来自元素异界的花仙国度，由于在之前没有来过恩塔格瑞，被认为是元素族的一个分支。目前花仙已经从元素独立，并且逐渐来到恩塔格瑞开始生活。",
 		"translations" : [
 			"translation/fairy/chinese.json"
 		]
