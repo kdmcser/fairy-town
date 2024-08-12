@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.4",
+	"version" : "2.5",
 	"changelog" :
 	{
+		"2.5"	: [ "Improved heroes portraits, sibyl on map and tavern border by Fabrice-TIERCELIN."],
 		"2.4"	: [ "New commander sprites", "Some fixes in siege screen"],
 		"2.3"	: [ "Fixed the creatures' stackExp and the commander"],
 		"2.2"	: [ "Update to vcmi-1.4 format"],
