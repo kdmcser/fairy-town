@@ -49,7 +49,7 @@
 	},	
 	"russian" : {
 		"name" : "Город Фей",
-		"description" : "Feenwald Stadt",
+		"description" : "Новый город фей, созданный в стиле сказочного магического леса.",
 		"translations" : [
 			"translation/fairy/russian.json"
 		]
