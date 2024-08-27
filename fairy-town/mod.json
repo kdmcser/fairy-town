@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.51",
+	"version" : "2.52",
 	"changelog" :
 	{
+		"2.52"	: [ "Ukrainian translation by MyroSlave", "Updated russian translation" ],
 		"2.51"	: [ "Russian translation by Anton Sergeew" ],
 		"2.5"	: [ "Improved heroes portraits, sibyl on map and tavern border by Fabrice-TIERCELIN" ],
 		"2.4"	: [ "New commander sprites", "Some fixes in siege screen" ],
@@ -40,18 +41,18 @@
 			"translation/fairy/german.json"
 		]
 	},
-	"ukrainian" : {
-		"name" : "Місто Фей",
-		"description" : "Нове місто від New fairy Team та Turbanellos",
-		"translations" : [
-			"translation/fairy/ukrainian.json"
-		]
-	},	
 	"russian" : {
 		"name" : "Город Фей",
 		"description" : "Новый город фей, созданный в стиле сказочного магического леса.",
 		"translations" : [
 			"translation/fairy/russian.json"
+		]
+	},
+	"ukrainian" : {
+		"name" : "Місто Фей",
+		"description" : "Нове місто від New fairy Team та Turbanellos",
+		"translations" : [
+			"translation/fairy/ukrainian.json"
 		]
 	},
     "factions" : [ "config/fairy/town" ],
