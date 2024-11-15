@@ -3,9 +3,10 @@
 	"description" : "New town made by New fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New fairy Team, mod : Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.52",
+	"version" : "2.53",
 	"changelog" :
 	{
+		"2.53"	: [ "Polish translation by FallainBlack" ],
 		"2.52"	: [ "Ukrainian translation by MyroSlave", "Updated russian translation" ],
 		"2.51"	: [ "Russian translation by Anton Sergeew" ],
 		"2.5"	: [ "Improved heroes portraits, sibyl on map and tavern border by Fabrice-TIERCELIN" ],
@@ -53,6 +54,13 @@
 		"description" : "Нове місто від New fairy Team та Turbanellos",
 		"translations" : [
 			"translation/fairy/ukrainian.json"
+		]
+	},
+	"polish" : {
+		"name" : "Wróżkolandia",
+		"description" : "Miasto Wróżek autorstwa Ben Yana",
+		"translations" : [
+			"translation/fairy/polish.json"
 		]
 	},
     "factions" : [ "config/fairy/town" ],
