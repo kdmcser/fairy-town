@@ -250,6 +250,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -267,12 +268,14 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
+					"produce": { "gems": 1},
 					"id" : 15
 				},
 				"blacksmith" :
 				{
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"name" : "Blacksmith",
+					"warMachine" : "firstAidTent",
 					"cost" :
 					{
 						"wood" : 5,
@@ -320,7 +323,15 @@
 						"gold" : 1000,
 						"gems": 5
 					},
-					"onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "LUCK", "val": 2 } ],
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+							"message" : "You gaze upon the serene beauty of the Swan Lake. Inspired by its tranquility, you feel immensely lucky!",
+								"bonuses" : [ { "type" : "LUCK", "val" : 2, "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ]
+							}
+						]
+					},
 					"requires" : [ "allOf", ["tavern"], ["fort"], ["townHall"] ],
 					"id" : 17
 				},
@@ -357,7 +368,15 @@
 					},
 					"upgrades" : "special3",
 					"produce": { "crystal": 1 },
-					"onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "MANA_REGENERATION", "val": 5} ],
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+							"message" : "The vibrant beauty of the flowers fills you with energy and calm. You feel your magical power replenishing!",
+								"bonuses" : [ { "type" : "MANA_REGENERATION", "val" : 5, "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ]
+							}
+						]
+					},
 					"id" : 23
 				},
 				"horde2" : 
@@ -689,7 +708,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/factions/Whispers_of_Twilight",
+			"musicTheme" : [ "music/factions/Whispers_of_Twilight" ],
 			"names" : [
 				"Rosalind",
 				"Rosamund",
@@ -708,7 +727,6 @@
 				"Night Orchard",
 				"Fullmoon"
 			],
-			"primaryResource" : "gems",
 			"siege" : {
 				"shooter" : "ftHatchling1",
 				"imagePrefix" : "fairy/siege/sgft",
@@ -1141,7 +1159,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "fairy/town-screen/background.bmp",
-		"warMachine" : "firstAidTent",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
