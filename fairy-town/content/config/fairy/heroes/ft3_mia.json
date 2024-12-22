@@ -7,62 +7,57 @@
 		"texts" :
 		{
 			"name" : "Mia",
-			"biography" : "It is said that Mia was born with a love of the finer things. Whenver she is in town, she and her troops can be found in the marketplace, and the coffers are always fuller when she leaves.",
+			"biography" : "It is said that Mia was born with a love of all animals, but in her early years, she formed a strong bond to the local deer population. Now, she commands brave stags in combat, who rally to her when they are called.",
 			"specialty" : 
 			{
-				"description" : "+350 Gold per day",
-				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
-				"name" : "+350 Gold"
+				"description" : "Increases the speed of Moon Deer or Sun Deer by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Moon Deer",
+				"name" : "Moon Deer"
 			}
 		},
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/malla/UN32Engi.png",
-			"specialtyLarge" : "fairy/heroes/malla/UN44Engi.png",
-			"large" : "fairy/heroes/malla/hpl289.png",
-			"small" : "fairy/heroes/malla/hps289.png"
-		},	
+			"specialtySmall" : "fairy/heroes/ft3_mia/moon-deer-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft3_mia/moon-deer-spec-large.png",
+			"small" : "fairy/heroes/ft3_mia/mia-small.png",
+			"large" : "fairy/heroes/ft3_mia/mia-large.png"
+		},
+		
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
-				"max" : 30,
-				"min" : 20
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
 			},
 			{
-				"creature" : "ballista",
-				"max" : 1,
-				"min" : 1
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
 			},
 			{
-				"creature" : "ftNoble1",
-				"max" : 7,
-				"min" : 4
-			},
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "archery"
+				"skill" : "offence"
 			},
 			{
 				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "estates"
 			}		
 		],
 			
 		"specialty" : {
-			"bonuses" : {
-				"gems" : {
-					"subtype" : "resource.gold",
-					"type" : "GENERATE_RESOURCE",
-					"val" : 350
-				}
-			}
-		}
+			"creature" : "ftMoonDeer1"
+		} 
 	}
 }
 

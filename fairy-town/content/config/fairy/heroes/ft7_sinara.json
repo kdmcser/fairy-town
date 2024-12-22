@@ -7,53 +7,61 @@
 		"texts" :
 		{
 			"name" : "Sinara",
-			"biography" : "Sinara has a heart of gold, and a voice that is said to make butterflies dance on the winds. She is also an excellent musician for playing harp.",
+			"biography" : "Sinara is one of the finest weaponsmiths known. It is said she makes all the weapons for her warriors, and that those weapons make some of the deepest woounds ever seen.",
 			"specialty" :
 			{
-				"description" : "Increases the Attack and Defense skills of Sibyls or Enchantresses or each level attained after 5th level.",
-				"tooltip" : "{Flower Dragons}\r\n\r\nIncreases the Attack and Defense skills of Flower Dragons or Rainbow Dragons.",
-				"name" : "Sibyls"
+				"description" : "All creatures receive +1 minimum and maximum Damage.",
+				"tooltip" : "Creature Bonus: Enchanted Weapons",
+				"name" : "Enchanted Weapons"
 			}
 		},
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/phindara/un32bsrd.png",
-			"specialtyLarge" : "fairy/heroes/phindara/un44bsrd.png",
-			"large" : "fairy/heroes/phindara/hpl288.png",
-			"small" : "fairy/heroes/phindara/hps288.png"
+			"specialtySmall" : "fairy/heroes/ft7_sinara/enchanted-weapons-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft7_sinara/enchanted-weapons-spec-large.png",
+			"small" : "fairy/heroes/ft7_sinara/sinara-small.png",
+			"large" : "fairy/heroes/ft7_sinara/sinara-large.png"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftHatchling1",
-				"max" : 3,
-				"min" : 1
+				"creature" : "ftClauricorn1",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
 			}
 		],
 
 		"skills" :
 		[
 			{
-				"level" : "basic",
-				"skill" : "scouting"
-			},
-			{
-				"level" : "basic",
-				"skill" : "pathfinding"
+				"level" : "advanced",
+				"skill" : "offence"
 			}
 		],
 		
-		"specialty":
-			{
-				"creature" : "ftHatchling1"
-			} 
+		"specialty" : {
+			"bonuses": {
+				"damageBoost" :
+				{
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageBoth",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
 	}
 }
 
