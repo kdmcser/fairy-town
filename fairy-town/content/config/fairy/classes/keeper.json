@@ -27,9 +27,9 @@
 		},
 		"lowLevelChance" :
 		{
-			"attack"     : 5,
+			"attack"     : 15,
 			"defence"    : 15,
-			"spellpower" : 40,
+			"spellpower" : 30,
 			"knowledge"  : 40
 		},
 		"highLevelChance" :
