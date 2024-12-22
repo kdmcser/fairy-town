@@ -3,7 +3,7 @@
 		"types" : {
 			"ftFairyCabin" : {
 				"name" : "Arcane Blossom",
-				"creatures" : [[ "ftFairy1" ]],
+				"creatures" : [[ "ftFae1" ]],
 				"sounds": {
 					"ambient": ["LOOPFAER"]
 				},
@@ -16,7 +16,7 @@
 			},
 			"ftArcane" : {
 				"name" : "Alehouse",
-				"creatures" : [[ "ftFench1" ]],
+				"creatures" : [[ "ftClauricorn1" ]],
 				"sounds": {
 					"ambient": ["LOOPGREM"]
 				},
@@ -29,7 +29,7 @@
 			},
 			"ftRiverLodge" : {
 				"name" : "Riverbed Lodge",
-				"creatures" : [[ "ftNoble1" ]],
+				"creatures" : [[ "ftMoonDeer1" ]],
 				"sounds": {
 					"ambient": ["LOOPFAER"]
 				},
@@ -42,7 +42,7 @@
 			},
 			"ftPortal" : {
 				"name" : "Breeze Valley",
-				"creatures" : [[ "ftWisp1" ]],
+				"creatures" : [[ "ftSylph1" ]],
 				"sounds": {
 					"ambient": ["LOOPAIR"]
 				},
@@ -55,7 +55,7 @@
 			},
 			"ftDragonHatchery" : {
 				"name" : "Harp Stage",
-				"creatures" : [[ "ftHatchling1" ]],
+				"creatures" : [[ "ftSibyl1" ]],
 				"sounds": {
 					"ambient": ["fairy/LOOP01"]
 				},
@@ -69,7 +69,7 @@
 			},
 			"ftDragonNest" : {
 				"name" : "Rainbow Fort",
-				"creatures" : [[ "ftWyvern1" ]],
+				"creatures" : [[ "ftNobleSprite1" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["dwellings/faidwl6.wav"]
@@ -83,7 +83,7 @@
 			},
 			"ftDragonRoost" : {
 				"name" : "Garden of Light",
-				"creatures" : [[ "ftDrag1" ]],
+				"creatures" : [[ "ftIris1" ]],
 				"guards" : true,
 				"sounds": {
 					"ambient": ["LOOPFAER"]
