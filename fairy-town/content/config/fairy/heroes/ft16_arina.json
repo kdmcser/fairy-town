@@ -20,8 +20,8 @@
 		{
 			"specialtySmall" : "fairy/heroes/ft16_arina/diplomacy-spec-small.png",
 			"specialtyLarge" : "fairy/heroes/ft16_arina/diplomacy-spec-large.png",
-			"small" : "fairy/heroes/ft16_arina/arina-small.png",
-			"large" : "fairy/heroes/ft16_arina/arina-large.png"
+			"small" : "fairy/heroes/ft16_arina/hps300.png",
+			"large" : "fairy/heroes/ft16_arina/hpl300.png"
 		},
 
 		"spellbook" :

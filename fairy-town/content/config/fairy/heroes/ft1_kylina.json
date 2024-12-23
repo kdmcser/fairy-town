@@ -18,26 +18,26 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/kyorlin/un32drud.png",
-			"specialtyLarge" : "fairy/heroes/kyorlin/un44drud.png",
-			"large" : "fairy/heroes/kyorlin/hpl284.png",
-			"small" : "fairy/heroes/kyorlin/hps284.png"
+			"specialtySmall" : "fairy/heroes/ft1_kylina/sylph-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft1_kylina/sylph-spec-large.png",
+			"large" : "fairy/heroes/ft1_kylina/kylina-large.bmp",
+			"small" : "fairy/heroes/ft1_kylina/kylina-small.bmp"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftWisp1",
+				"creature" : "ftSylph1",
 				"max" : 5,
 				"min" : 2
 			}
@@ -57,7 +57,7 @@
 		
 		"specialty":
 			{
-				"creature" : "ftWisp1"
+				"creature" : "ftSylph1"
 			} 
 	}
 }

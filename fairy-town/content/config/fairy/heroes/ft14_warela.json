@@ -18,10 +18,10 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/wanre/UN32Summ.png",
-			"specialtyLarge" : "fairy/heroes/wanre/UN44Summ.png",
-			"large" : "fairy/heroes/wanre/hpl294.png",
-			"small" : "fairy/heroes/wanre/hps294.png"
+			"specialtySmall" : "fairy/heroes/ft14_warela/magic-arrow-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft14_warela/magic-arrow-spec-large.png",
+			"large" : "fairy/heroes/ft14_warela/warela-large.bmp",
+			"small" : "fairy/heroes/ft14_warela/warela-small.bmp"
 		},
 
 		"spellbook" :
@@ -32,17 +32,17 @@
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 6,
 				"min" : 4
 			}
