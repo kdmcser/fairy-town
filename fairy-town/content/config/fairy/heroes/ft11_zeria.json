@@ -18,10 +18,10 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/ssin/un32sorc.png",
-			"specialtyLarge" : "fairy/heroes/ssin/un44sorc.png",
-			"large" : "fairy/heroes/ssin/hpl297.png",
-			"small" : "fairy/heroes/ssin/hps297.png"
+			"specialtySmall" : "fairy/heroes/ft11_zeria/sorcery-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft11_zeria/sorcery-spec-large.png",
+			"large" : "fairy/heroes/ft11_zeria/zeria-large.png",
+			"small" : "fairy/heroes/ft11_zeria/zeria-small.png"
 		},
 
 		"spellbook" :
@@ -32,17 +32,17 @@
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 6,
 				"min" : 4
 			}
