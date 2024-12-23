@@ -18,10 +18,10 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/vlos/un32firs.png",
-			"specialtyLarge" : "fairy/heroes/vlos/un44firs.png",
-			"large" : "fairy/heroes/vlos/hpl295.png",
-			"small" : "fairy/heroes/vlos/hps295.png"
+			"specialtySmall" : "fairy/heroes/ft17_losina/un32firs.png",
+			"specialtyLarge" : "fairy/heroes/ft17_losina/un44firs.png",
+			"large" : "fairy/heroes/ft17_losina/hpl295.png",
+			"small" : "fairy/heroes/ft17_losina/hps295.png"
 		},
 
 		"spellbook" :
@@ -32,7 +32,7 @@
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
@@ -42,7 +42,7 @@
 				"min" : 1
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 7,
 				"min" : 5
 			}
