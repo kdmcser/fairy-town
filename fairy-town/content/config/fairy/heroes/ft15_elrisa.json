@@ -18,10 +18,10 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/suliss/Un32Scri.png",
-			"specialtyLarge" : "fairy/heroes/suliss/Un44Scri.png",
-			"large" : "fairy/heroes/suliss/hpl293.png",
-			"small" : "fairy/heroes/suliss/hps293.png"
+			"specialtySmall" : "fairy/heroes/ft15_elrisa/Un32Scri.png",
+			"specialtyLarge" : "fairy/heroes/ft15_elrisa/Un44Scri.png",
+			"large" : "fairy/heroes/ft15_elrisa/hpl293.png",
+			"small" : "fairy/heroes/ft15_elrisa/hps293.png"
 		},
 		
 		"spellbook" :
@@ -32,17 +32,17 @@
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 6,
 				"min" : 4
 			}
