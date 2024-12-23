@@ -1,0 +1,69 @@
+{
+	"ftI_Vanessa" :
+	{
+		"class" : "keeper",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Vanessa",
+			"biography" : "Vanessa is one of the bravest fairies in the land. She leads her grassland cousins on some of the most daring missions, inspiring them to greatness in battle.",
+			"specialty" :
+			{
+				"description" : "Increases the speed of Faes or Fairies by 1 and their Attack and Defense skills for each level attained after 1st level.",
+				"tooltip" : "Creature Bonus: Faes",
+				"name" : "Faes"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairy/heroes/ft9_vanessa/fae-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft9_vanessa/fae-spec-large.png",
+			"small" : "fairy/heroes/ft9_vanessa/vanessa-small.png",
+			"large" : "fairy/heroes/ft9_vanessa/vanessa-large.png"
+		},
+
+		"spellbook" :
+		[
+			"haste" 
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "ftFae1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFae1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ftFae1",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+				}
+		],
+		
+		"specialty" : {
+			"creature" : "ftFae1"
+		} 
+	}
+}
+
+

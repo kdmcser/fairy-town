@@ -12,7 +12,7 @@
 		"targetType": "CREATURE",
 		"targetCondition" : {
 			"anyOf" : {
-				"fairy-town:creature.ftNoble2":"absolute"}
+				"fairy-town:creature.ftMoonDeer2":"absolute"}
 		},
 		"level": 1,
 		"power": 10,

@@ -603,13 +603,13 @@
 			},
 			"buildingsIcons" : "fairy/town-hall.def",
 			"creatures" : [
-				[ "ftFairy1", "ftFairy2" ],
-				[ "ftFench1", "ftFench2" ],
-				[ "ftNoble1", "ftNoble2" ],
-				[ "ftWisp1", "ftWisp2" ],
-				[ "ftHatchling1", "ftHatchling2" ],
-				[ "ftWyvern1", "ftWyvern2" ],
-				[ "ftDrag1", "ftDrag2" ]
+				[ "ftFae1", "ftFae2" ],
+				[ "ftClauricorn1", "ftClauricorn2" ],
+				[ "ftMoonDeer1", "ftMoonDeer2" ],
+				[ "ftSylph1", "ftSylph2" ],
+				[ "ftSibyl1", "ftSibyl2" ],
+				[ "ftNobleSprite1", "ftNobleSprite2" ],
+				[ "ftIris1", "ftIris2" ]
 			],
 			"guildBackground" : "TPMAGE.bmp",
 			"guildSpells" : {
@@ -728,7 +728,7 @@
 				"Fullmoon"
 			],
 			"siege" : {
-				"shooter" : "ftHatchling1",
+				"shooter" : "ftSibyl1",
 				"imagePrefix" : "fairy/siege/sgft",
 				"towerIconSmall" : "fairy/icons/arrowtowersmall",
 				"towerIconLarge" : "fairy/icons/arrowtowerslarge",

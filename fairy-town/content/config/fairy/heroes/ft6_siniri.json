@@ -10,36 +10,36 @@
 			"biography" : "Siniri is a bit of a celebrity in the world of Fairies. She and her entourage are known as the Royal Gold Fairy brigade.",
 			"specialty" :
 			{
-				"description" : "Increases the Attack and Defense skills of Noble Sprites and Sprite Queens or each level attained after 6th level.",
-				"tooltip" : "{Royal Gold Fairys}\r\n\r\nCan upgrade Royal Fairies to Royal Gold Fairys",
+				"description" : "Increases the speed of Noble Sprites and Sprite Queens by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Noble Sprites",
 				"name" : "Noble Sprites"
 			}
 		},
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/sithyrr/un32ball.png",
-			"specialtyLarge" : "fairy/heroes/sithyrr/un44ball.png",
-			"large" : "fairy/heroes/sithyrr/hpl290.png",
-			"small" : "fairy/heroes/sithyrr/hps290.png"
+			"specialtySmall" : "fairy/heroes/ft6_siniri/noble-sprite-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft6_siniri/noble-sprite-spec-large.png",
+			"small" : "fairy/heroes/ft6_siniri/siniri-small.png",
+			"large" : "fairy/heroes/ft6_siniri/siniri-large.png"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
-				"max" : 10,
-				"min" : 8
+				"creature" : "ftClauricorn1",
+				"max" : 7,
+				"min" : 5
 			},
 			{
-				"creature" : "ftNoble1",
-				"max" : 7,
-				"min" : 4
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
 			}
 		],
 
@@ -47,17 +47,16 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "luck"
+				"skill" : "offence"
 			},
 			{
 				"level" : "basic",
-				"skill" : "tactics"
+				"skill" : "logistics"
 			}
 		],
 		
-		"specialty":
-			{
-				"creature" : "ftWyvern1"
-			} 
+		"specialty" : {
+			"creature" : "ftNobleSprite1"
+		} 
 	}
 }

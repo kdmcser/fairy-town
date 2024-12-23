@@ -20,17 +20,17 @@
 
 		"primarySkills" :
 		{
-			"attack"     : 0,
-			"defence"    : 4,
+			"attack"     : 1,
+			"defence"    : 3,
 			"spellpower" : 1,
 			"knowledge"  : 1
 		},
 		"lowLevelChance" :
 		{
 			"attack"     : 30,
-			"defence"    : 50,
-			"spellpower" : 10,
-			"knowledge"  : 10
+			"defence"    : 40,
+			"spellpower" : 15,
+			"knowledge"  : 15
 		},
 		"highLevelChance" :
 		{

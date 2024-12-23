@@ -18,10 +18,10 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/tuidhana/Un32Fmag.png",
-			"specialtyLarge" : "fairy/heroes/tuidhana/Un44Fmag.png",
-			"large" : "fairy/heroes/tuidhana/hpl300.png",
-			"small" : "fairy/heroes/tuidhana/hps300.png"
+			"specialtySmall" : "fairy/heroes/ft16_arina/diplomacy-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft16_arina/diplomacy-spec-large.png",
+			"small" : "fairy/heroes/ft16_arina/arina-small.png",
+			"large" : "fairy/heroes/ft16_arina/arina-large.png"
 		},
 
 		"spellbook" :
@@ -32,19 +32,19 @@
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
-				"max" : 10,
-				"min" : 8
+				"creature" : "ftClauricorn1",
+				"max" : 7,
+				"min" : 5
 			},
 			{
-				"creature" : "ftNoble1",
-				"max" : 6,
-				"min" : 4
+				"creature" : "ftMoonDeer1",
+				"max" : 5,
+				"min" : 3
 			}
 		],
 
@@ -52,14 +52,15 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "wisdom"
 			},
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "diplomacy"
 			}
 		],
-		"specialty": {
+		
+		"specialty" : {
 			"bonuses": {
 				"discount" : {
 					"type" : "SURRENDER_DISCOUNT",
