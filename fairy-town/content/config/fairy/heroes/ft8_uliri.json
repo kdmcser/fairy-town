@@ -18,26 +18,26 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/ultrin/Un32Defe.png",
-			"specialtyLarge" : "fairy/heroes/ultrin/Un44Defe.png",
-			"large" : "fairy/heroes/ultrin/hpl287.png",
-			"small" : "fairy/heroes/ultrin/hps287.png"
+			"specialtySmall" : "fairy/heroes/ft8_uliri/armorer-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft8_uliri/armorer-spec-large.png",
+			"large" : "fairy/heroes/ft8_uliri/uliri-large.png",
+			"small" : "fairy/heroes/ft8_uliri/uliri-small.png"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 6,
 				"min" : 4
 			}
