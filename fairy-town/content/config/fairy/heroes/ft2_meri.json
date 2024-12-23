@@ -18,26 +18,26 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/mrimm/un32logi.png",
-			"specialtyLarge" : "fairy/heroes/mrimm/un44logi.png",
-			"large" : "fairy/heroes/mrimm/hpl285.png",
-			"small" : "fairy/heroes/mrimm/hps285.png"
+			"specialtySmall" : "fairy/heroes/ft2_meri/logistics-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft2_meri/logistics-spec-large.png",
+			"large" : "fairy/heroes/ft2_meri/meri-large.bmp",
+			"small" : "fairy/heroes/ft2_meri/meri-small.bmp"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricon1",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 6,
 				"min" : 4
 			}
