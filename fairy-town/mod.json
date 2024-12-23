@@ -6,7 +6,7 @@
 	"version" : "2.61",
 	"changelog" :
 	{
-		"2.61"  : [ "Fixed broken heroes portraits and armies" ],
+		"2.61"  : [ "Fixed broken heroes", "Updated ukrainian translation" ],
 		"2.60"	: [ "Updated all heroes' armies and specialties" ],
 		"2.54"	: [ "Update to vcmi-1.6 format" ],
 		"2.53"	: [ "Polish translation by FallainBlack" ],
