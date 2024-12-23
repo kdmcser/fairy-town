@@ -19,27 +19,27 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/olath/un32crys.png",
-			"specialtyLarge" : "fairy/heroes/olath/un44crys.png",
-			"large" : "fairy/heroes/olath/hpl299.png",
-			"small" : "fairy/heroes/olath/hps299.png"
+			"specialtySmall" : "fairy/heroes/ft4_ola/crystal-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft4_ola/crystal-spec-large.png",
+			"large" : "fairy/heroes/ft4_ola/ola-large.bmp",
+			"small" : "fairy/heroes/ft4_ola/ola-small.bmp"
 		},
 
 
 		"army" :
 		[
 			{
-				"creature" : "ftFairy1",
+				"creature" : "ftFae1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "ftNoble1",
-				"max" : 8,
-				"min" : 3
+				"creature" : "ftClauricorn1",
+				"max" : 10,
+				"min" : 8
 			},
 			{
-				"creature" : "ftNoble1",
+				"creature" : "ftMoonDeer1",
 				"max" : 5,
 				"min" : 3
 			}
