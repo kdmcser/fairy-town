@@ -18,26 +18,26 @@
 		
 		"images" :
 		{
-			"specialtySmall" : "fairy/heroes/shebali/un32hunt.png",
-			"specialtyLarge" : "fairy/heroes/shebali/un44hunt.png",
-			"large" : "fairy/heroes/shebali/hpl286.png",
-			"small" : "fairy/heroes/shebali/hps286.png"
+			"specialtySmall" : "fairy/heroes/ft5_angus/clauricorn-spec-small.png",
+			"specialtyLarge" : "fairy/heroes/ft5_angus/clauricorn-spec-large.png",
+			"large" : "fairy/heroes/ft5_angus/angus-large.png",
+			"small" : "fairy/heroes/ft5_angus/angus-large.png"
 		},
 
 		"army" :
 		[
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 7,
 				"min" : 4
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-				"creature" : "ftFench1",
+				"creature" : "ftClauricorn1",
 				"max" : 6,
 				"min" : 3
 			}
