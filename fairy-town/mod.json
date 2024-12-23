@@ -6,6 +6,7 @@
 	"version" : "2.60",
 	"changelog" :
 	{
+		"2.61"  : [ "Fixed broken heroes portraits and armies" ],
 		"2.60"	: [ "Updated all heroes' armies and specialties" ],
 		"2.54"	: [ "Update to vcmi-1.6 format" ],
 		"2.53"	: [ "Polish translation by FallainBlack" ],
@@ -111,7 +112,8 @@
 		"config/fairy/heroes/ft13_sarisa.json",
 		"config/fairy/heroes/ft14_warela.json",
 		"config/fairy/heroes/ft15_elrisa.json",
-		"config/fairy/heroes/ft16_arina.json"
+		"config/fairy/heroes/ft16_arina.json",
+		"config/fairy/heroes/ft17_losina.json"
 	],
 	"spells":
 	[
