@@ -15,7 +15,7 @@
 		"defaultGainChance": 0, 
 		"gainChance": {},
 		"animation":{
-			"affect":["fairy/spells/frysp4.def"]
+			"affect":[{ "defName" : "fairy/spells/frysp4.def", "transparency" : 0.5}]
 		},
 		"flags" : 
 		{

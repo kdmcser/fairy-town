@@ -709,7 +709,11 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : [ "music/factions/Whispers_of_Twilight" ],
+			"musicTheme" : [ 
+				"music/factions/Whispers_of_Twilight",
+				"music/factions/fairytown",
+				"music/factions/fairytown3"
+			],
 			"names" : [
 				"Rosalind",
 				"Rosamund",
@@ -731,8 +735,8 @@
 			"siege" : {
 				"shooter" : "ftSibyl1",
 				"imagePrefix" : "fairy/siege/sgft",
-				"towerIconSmall" : "fairy/icons/arrowtowersmall",
-				"towerIconLarge" : "fairy/icons/arrowtowerslarge",
+				"towerIconSmall" : "fairy/icons/towerSmall",
+				"towerIconLarge" : "fairy/icons/towerLarge",
 				"gate" :
 				{
 					"arch" : { "x" : 477, "y" : 238 },
@@ -953,12 +957,11 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true,
-					"builds" : "horde1"
+					"hidden" : true, "builds" : "horde1",
 				},
 				"boat" :
 				{
-					"animation" : "fairy/town-screen/buildings/TBFLDOCK",
+					"animation" : "fairy/town-screen/buildings/TBFLSHIP",
 					"area" : "fairy/town-screen/buildings-area/TZFLDOCK",
 					"border" : "fairy/town-screen/buildings-border/TOFLDOCK",
 					"x" : 0,
@@ -986,8 +989,8 @@
 				"special3" : 
 				{
 					"animation" : "fairy/town-screen/buildings/TBFLSPE3",
-					"area" : "fairy/town-screen/buildings-area/TZFLSPE2",
-					"border" : "fairy/town-screen/buildings-border/TOFLSPE2",
+					"area" : "fairy/town-screen/buildings-area/TZFLSPE3",
+					"border" : "fairy/town-screen/buildings-border/TOFLSPE3",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
@@ -995,8 +998,8 @@
 				"special4" : 
 				{
 					"animation" : "fairy/town-screen/buildings/TBFLSPE4",
-					"area" : "fairy/town-screen/buildings-area/TZFLSPE2",
-					"border" : "fairy/town-screen/buildings-border/TOFLSPE2",
+					"area" : "fairy/town-screen/buildings-area/TZFLSPE3",
+					"border" : "fairy/town-screen/buildings-border/TOFLSPE3",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
@@ -1019,8 +1022,7 @@
 					"x" : 0,
 					"y" : 0,
 					"z" : 2,
-					"hidden" : true,
-					"builds" : "horde2"
+					"hidden" : true, "builds" : "horde2",
 				},	
 				"grail" :
 				{

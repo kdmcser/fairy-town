@@ -3,9 +3,10 @@
 	"description" : "New town made by New Fairy Team, updated by Turbanellos in 2022.",	
 	"author" : "Ben Yan, New Fairy Team, Kuririn, zeryss, Draeganfire, avatar",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.62",
+	"version" : "2.70",
 	"changelog" :
 	{
+		"2.70"  : [ "New townscreen", "Changes in line-up", "Tarot cards!" ],
 		"2.62"  : [ "Fix Grail not to produce gold" ],
 		"2.61"  : [ "Fixed broken heroes", "Updated ukrainian translation" ],
 		"2.60"	: [ "Updated all heroes' armies and specialties" ],
@@ -33,8 +34,8 @@
 	"modType" : "Town",	
 	"depends" : ["hota.highlandsterrain"], 
 	"chinese" : {
-		"name" : "仙境",
-		"description" : "仙境有着独特的爱尔兰童话艺术感，原型之一也来自于二代的女巫阵营。该种族来自元素异界的花仙国度，由于在之前没有来过恩塔格瑞，被认为是元素族的一个分支。目前花仙已经从元素独立，并且逐渐来到恩塔格瑞开始生活。",
+		"name" : "花仙堡",
+		"description" : "花仙堡有着独特的爱尔兰童话艺术感，原型之一也来自于二代的女巫阵营。该种族来自元素异界的花仙国度，由于在之前没有来过恩塔格瑞，被认为是元素族的一个分支。目前花仙已经从元素独立，并且逐渐来到恩塔格瑞开始生活。",
 		"translations" : [
 			"translation/fairy/chinese.json"
 		]
@@ -87,22 +88,20 @@
 		"config/fairy/creatures/ftStoneAegis.json",	
 		"config/fairy/creatures/ftCommander.json"	
 	],
-    "artifacts":
-    [              
-		"config/fairy/artifacts/StoneAegisArt.json"        
-    ],
+	
 	"heroClasses" :
 	[
 		"config/fairy/classes/diviner.json",
 		"config/fairy/classes/keeper.json"
 	],
+
 	"heroes" :
 	[
 		"config/fairy/heroes/ft1_kylina.json",
 		"config/fairy/heroes/ft2_meri.json",
 		"config/fairy/heroes/ft3_mia.json",
 		"config/fairy/heroes/ft4_ola.json",
-		"config/fairy/heroes/ft5_angus.json",
+		"config/fairy/heroes/ft5_sheli.json",
 		"config/fairy/heroes/ft6_siniri.json",
 		"config/fairy/heroes/ft7_sinara.json",
 		"config/fairy/heroes/ft8_uliri.json",
@@ -125,10 +124,20 @@
 		"config/fairy/spells/shotspell1.json",
 		"config/fairy/spells/moat.json"
 	],
+	"artifacts":
+	[
+		"config/fairy/artifacts/tarotCards.json"
+	],
     "objects" :
     [  
-		"config/fairy/dwellings.json",
-		"config/fairy/boats.json",
-		"config/fairy/banks/FairiesBank.json" 
+    "config/fairy/dwellings.json",
+	"config/fairy/banks/fairyFlower.json",
+	"config/fairy/banks/FairiesCrystal.json",
+	"config/fairy/banks/evilTreeofKnowledge.json",
+	"config/fairy/banks/fairywaterfalls.json",
+	"config/fairy/boats.json",
+	"config/fairy/banks/fairyDecorations.json",
+	"config/fairy/banks/divinationHut.json",
+	"config/fairy/banks/FairiesBank.json" 
     ]
 }
