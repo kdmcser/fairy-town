@@ -145,7 +145,7 @@
     "hero.fairy-town.ftB_ftMeri.specialty.description": "Otrzymuje 5% bonus do Logistyki na każdy poziom bohatera.",
     "hero.fairy-town.ftB_ftMeri.specialty.name": "Logistyka",
     "hero.fairy-town.ftB_ftMeri.specialty.tooltip": "{Logistyka}\r\n\r\nOtrzymuje 5% bonus do Logistyki na każdy poziom bohatera.",
-    "hero.fairy-town.ftC_ftMia.biography": "Mówi się, że Mia urodziła się z miłością do rzeczy wyszukanych. Gdy jest w mieście, ona i jej oddziały często odwiedzają targowisko, a skarbce są zawsze pełniejsze, gdy opuszcza miasto.",
+    "hero.fairy-town.ftC_ftMia.biography": "Mówi się, że Mia urodziła się z miłością do wszystkich zwierząt, ale już we wczesnych latach wykształciła silną więź z lokalną populacją jeleniowatych. Teraz dowodzi w walce odważnymi jeleniami, które łączą się z nią, gdy zostaną wezwane.",
     "hero.fairy-town.ftC_ftMia.name": "Mia",
    	"hero.fairy-town.ftC_ftMia.specialty.description" : "Zwiększa szybkość Księżycowych Jeleni lub Słonecznych Jeleni o 1 oraz ich umiejętności Ataku i Obrony o 5% za każde 3 poziomy (zaokrąglone w górę).",
 	"hero.fairy-town.ftC_ftMia.specialty.name" : "Księżycowy Jeleń",
